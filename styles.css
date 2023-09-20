@@ -1,3 +1,6 @@
+@import url('https: //fonts.google.com/specimen/Hanken+Grotesk');
+
+/* FrontEndMentor initial design */
 .attribution
 {
   font-size: 11px;
@@ -8,4 +11,29 @@
 .attribution a
 {
   color: hsl(228, 45%, 44%);
+}
+
+/* Global */
+*
+{
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* container styles */
+.container
+{
+  display: flex;
+
 }
